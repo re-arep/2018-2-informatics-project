@@ -243,7 +243,7 @@ while True:
                     ball3[j].pos.x = ball3[j].pos.x + ballvec3[j][0] * dt
                     ball3[j].pos.y = ball3[j].pos.y + ballvec3[j][1] * dt - 9.8 * dt
                     ball3[j].pos.z = ball3[j].pos.z + ballvec3[j][2] * dt
-                if numb[0] >= 2:
+                if numb[0] >= 3:
                     ball4[j].color = colcol[colcolnum+3]
                     ball4[j].pos.x = ball4[j].pos.x + ballvec4[j][0] * dt
                     ball4[j].pos.y = ball4[j].pos.y + ballvec4[j][1] * dt - 9.8 * dt
